@@ -1,0 +1,11 @@
+{
+  "name": "tape",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Psychedelic reel-to-reel four-track browser recorder",
+  "type": "module",
+  "scripts": {
+    "check": "node --check dist/app.js && node --check dist/audio.js && node --check dist/capture-worklet.js && node --check dist/sw.js"
+  },
+  "license": "MIT"
+}
