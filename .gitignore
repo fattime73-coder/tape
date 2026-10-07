@@ -7,3 +7,19 @@ work/
 .openai/
 *.cosmictape
 *.wav
+
+# Local Xcode state and private credentials
+xcuserdata/
+*.xcuserstate
+DerivedData/
+*.xcscmblueprint
+*.xccheckout
+*.pem
+*.key
+*.p12
+*.pfx
+*.mobileprovision
+client_secret*.json
+credentials*.json
+secrets.json
+.netrc
